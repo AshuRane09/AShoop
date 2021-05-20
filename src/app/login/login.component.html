@@ -1,0 +1,20 @@
+<div style="margin: 370px 870px">
+  <form>
+    <label>Enter Email:</label><br />
+    <input type="email" #signInEmail /><br /><br />
+    <label>Enter Password:</label><br />
+    <input type="password" #signInPassword /><br /><br />
+    <button
+      type="submit"
+      (click)="onSignIn(signInEmail.value, signInPassword.value)"
+    >
+      Log in
+    </button>
+  </form>
+  <br />
+  <button (click)="googleLogin()" class="btn-primary btn">
+    Login with Google
+  </button>
+  <br />
+  <a routerLink="/signup">New User Register</a>
+</div>

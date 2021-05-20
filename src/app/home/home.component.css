@@ -1,0 +1,41 @@
+.carousel-indicators li {
+  display: none;
+}
+
+.back1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(../../assets/images/photo-1.jpeg);
+  background-position: top;
+}
+
+.back2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(../../assets/images/photo-2.jpeg);
+  background-position: center;
+}
+
+.back3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(../../assets/images/photo-3.jpeg);
+  background-position: center;
+}
+
+.back1,
+.back2,
+.back3 {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-caption {
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+span {
+  font-family: "Sacramento", cursive;
+  font-size: 7rem;
+  font-weight: 500;
+  color: white;
+}

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ashoop-9c435": {
+      "hosting": {
+        "Ashoop": [
+          "ashoop-9c435"
+        ]
+      }
+    }
+  }
+}
